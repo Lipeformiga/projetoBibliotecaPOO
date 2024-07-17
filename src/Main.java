@@ -24,15 +24,15 @@ public class Main {
         Biblioteca.adicionarItem(revista4);
 
         Biblioteca.listarItens();
-        System.out.println("\n" + Biblioteca.calcularValorTotalEstoque());
+        System.out.println("\na:" + Biblioteca.calcularValorTotalEstoque());
 
         System.out.println("\n" + Biblioteca.buscarItemPorTitulo("Harry Potter"));
         System.out.println("\n" + Biblioteca.buscarItemPorTitulo("Recreio"));
 
         System.out.println("livro1: " + livro1.calcularValorTotalComDesconto(0.1));
-        System.out.println("livro2: " +livro2.calcularValorTotalComDesconto(0.1));
-        System.out.println("livro3: " +livro3.calcularValorTotalComDesconto(0.1));
-        System.out.println("livro4: " +livro4.calcularValorTotalComDesconto(0.1));
+        System.out.println("livro2: " + livro2.calcularValorTotalComDesconto(0.1));
+        System.out.println("livro3: " + livro3.calcularValorTotalComDesconto(0.1));
+        System.out.println("livro4: " + livro4.calcularValorTotalComDesconto(0.1));
 
         System.out.println("revista1: " +revista1.calcularValorTotalComDesconto(0.1));
         System.out.println("revista2: " +revista2.calcularValorTotalComDesconto(0.1));

@@ -16,7 +16,6 @@ public class Livro extends ItemBiblioteca {
         }
         // 5% de desconto pra valor acima de R$82.50
         if (this.getPreco() > 82.50){
-            System.out.println(this);
             percentual += 0.05;
         }
         return (this.getPreco() - (this.getPreco() * percentual)) * this.getQuantidade();
